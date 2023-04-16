@@ -1,0 +1,19 @@
+name: Tournament
+version: 1.0.0
+api: [4.0.0]
+main: tournament\Main
+description: A plugin that allows players to participate in tournaments.
+author: ggWEATHER
+commands:
+  tournament:
+    description: Start a tournament or join an existing one.
+    usage: /tournament [join|start]
+    permission: tournament.command
+  setmap:
+    description: Set the tournament map and spawnpoints.
+    usage: /setmap <mapname>
+    permission: tournament.command.setmap
+  spectate:
+    description: Spectate an ongoing tournament.
+    usage: /spectate
+    permission: tournament.command.spectate
